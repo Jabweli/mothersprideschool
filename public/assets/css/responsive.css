@@ -1,0 +1,482 @@
+@media (max-width: 992px){
+    .topbar .container {
+        width: 100% !important;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%; left: 0;
+        width: 100%;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+        border-bottom: 0.1rem solid rgba(0,0,0,0.1);
+        padding: 1rem 1.5rem;
+        z-index: 999;
+        background-color: #fff;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        background-color: #1ab9ff;
+        padding: 1.2rem;
+        margin: 0.3rem 0;
+        font-weight: bold;
+    }
+
+    header .icons i {
+        margin: 0 0.1rem;
+        font-size: 1.1rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: bold;
+    }
+
+    header #menu-bar {
+        display: inline-block;
+    }
+
+
+    #close {
+        font-size: 35px;
+        position: absolute;
+        top: 6rem;
+        right: 5rem;
+        color: #fff;
+    }
+
+    #search-form {
+       padding: 3rem;
+    }
+
+
+    /* staff page */
+    .staff .teacher-box {
+        width: 32%;
+    }
+
+    /* events page */
+    .event-box{
+        width: 32%;
+    }
+} 
+
+@media (max-width: 890px){
+    .container {
+        width: 90% !important;
+    }
+    .choose-us .card-wrapper {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    
+
+}
+
+@media (max-width: 768px){
+    .registration-page .login-box,
+    .registration-page .register-box
+    {
+        margin-top: 70px;
+    }
+    .topbar .container {
+        width: 100% !important;
+    }
+    .topbar .contact-info{
+        display: none;
+    }
+
+    header .logo span {
+        font-size: 12px;
+        display: none;
+    }
+
+    header {
+        padding: 1rem 2%;
+        position: fixed;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%; left: 0;
+        width: 100%;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+        border-bottom: 0.1rem solid rgba(0,0,0,0.1);
+        padding: 1rem 1.5rem;
+        z-index: 999;
+        background-color: #fff;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a {
+        display: block !important;
+        width: 100%;
+        font-size: 15px;
+        background-color: #f8fdff;
+        padding: .8rem;
+        margin: 0.3rem 0;
+        font-weight: bold;
+    }
+
+    header .icons i {
+        margin: 0 0.1rem;
+        font-size: 1rem;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+
+    header #menu-bar {
+        display: inline-block;
+    }
+
+    #search-form {
+       padding: 2rem;
+    }
+    #search-form input {
+        width: 30rem;
+        font-size: 1rem;
+    }
+    #close {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 4rem;
+        right: 1.5rem;
+        color: #fff;
+    }
+
+    
+    /* hero section */
+    .hero{
+        margin-top: 50px;
+    }
+    .hero .hero-text {
+       padding-right: 50px; 
+    }
+    .hero .hero-text h1 {
+        font-size: 30px;
+    }
+
+    /* admission call to action section */
+    .ad-call-to-action {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.1);
+    }
+    .ad-call-to-action .ad-img{
+        width: 100% !important;
+    }
+    .ad-call-to-action .ad-text-container {
+        width: 100%;
+        height: auto;
+        border: 1px solid --light-red;
+    }
+    .ad-text-container .ad-text
+    {
+        width: 100%;
+        font-size: 14px;
+    }
+    .ad-text-container .ad-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* home page about section */
+    .about .container {
+        width: 90%;
+        padding-top: 40px;
+    }
+    .about-info-container {
+        width: 100%;
+    }
+    .about-image {
+        width: 100%;
+    }
+
+    .campus .campus-box {
+        width: 49%;
+    }
+
+    /* general section heading */
+    .general-heading {
+        text-align: center;
+        padding: 0 5%;
+    }
+
+
+    /* enroll action */
+    .enroll-call-to-action .action-text{
+        width: 100%;
+    }
+    .enroll-call-to-action .enroll-btn{
+        width: 100%;
+    }
+    .enroll-call-to-action .enroll-btn a{
+        float: left;
+        margin-top: 15px;
+    }
+
+    /* mission section */
+    .mission .mission-img {
+        width: 100%;
+    }
+    .mission .mission-text {
+        width: 100%;
+    }
+
+    .container-wrapper {
+        width: 95%;
+    }
+
+    .contact-box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0 0 4px 2px rgba(0,0,0,0.1);
+        width: 49%;
+        margin-bottom: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 20px;
+    }
+
+    /* staff page */
+    .staff .teacher-box {
+        width: 49%;
+    }
+
+
+    /* news page */
+    .styled-post-box{
+        width: 49%;
+    }
+
+
+    /* gallery page */
+    .gallery-wrapper img{
+        width: 49%;
+        margin-bottom: 10px;
+    }
+
+    /* events page */
+    .event-box{
+        width: 49%;
+    }
+
+    /* about page */
+    .facility-box {
+        width: 49%;
+    }
+
+     /* admissions page */
+     .admission-container {
+        margin-top: 20px;
+    }
+    .admission-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+}
+
+@media (max-width: 600px){
+    .container {
+        width: 95% !important;
+    }
+    .carousel {
+        height: 95vh;
+    }
+    .carousel-item .carousel-caption{
+        width: 70%;
+    }
+    .hero-text h6 {
+        font-size: 18px;
+    }
+    .hero-text h4 {
+        font-size: 25px;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+
+    .ad-call-to-action img {
+        width: 100%;
+        height: 200px;
+    }
+
+
+
+    /* CHOOSE US SECTION STYLING */
+    .choose-us .card-wrapper {
+        grid-template-columns: auto;
+    }
+
+    /* homepage activity section */
+    .activity .activity-col {
+        width: 100%;
+    }
+    .activity .activity-img {
+        text-align: center;
+        width: 100%;
+    }
+    .activity-col.left-col .activity-box.wrapper{
+        flex-direction: column-reverse;
+    }
+    .activity .left-col .activity-text{
+        text-align: left;
+        padding-left: 10px;
+    }
+    .activity-box .activity-text{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .activity .activity-img img {
+        width: 60%;
+    }
+
+    .campus .campus-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #facility-wrapper .campus-box img {
+        height: 250px;
+    }
+
+    /* teacher section */
+    .teachers .teacher-box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    footer .wrapper{
+        flex-wrap: wrap;
+    }
+
+    footer .footer-col{
+        width: 100%;
+    }
+
+
+    /* contact page */
+
+    .container-wrapper {
+        width: 95%;
+    }
+
+    .contact-box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0 0 4px 2px rgba(0,0,0,0.1);
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .contact-page-info .col-md-4{
+       margin-bottom: 20px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 30px auto;
+        padding: 20px 10px;
+    }
+    .staff-contact-details{
+        margin: 10px 0;
+    }
+
+    /* staff page */
+    .staff .teacher-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* news page */
+    .styled-post-box{
+        width: 100%;
+    }
+
+    /* events page */
+    .event-box{
+        width: 100%;
+    }
+
+
+    /* about page */
+    .facility-box {
+        width: 100%;
+    }
+
+    /* admissions page */
+    .admission-container {
+        margin-top: 20px;
+    }
+    .admission-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .desktop-btn {
+        display: none;
+    }
+
+    .mobile-btn {
+        display: block;
+    }
+
+
+    .single-post-container{
+        background-color: #fff;
+        padding: 30px 15px;
+        border-radius: 10px;
+        margin-top: 80px;
+    }
+
+    .single-post-container .post-image{
+        width: 100%;
+        height: 250px;
+    }
+
+    .policy-page {
+        padding: 30px 20px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .mission .mission-text .wrapper .col{
+        width: 100%;
+    }
+
+    #search-form input {
+        width: 25rem;
+        font-size: 1rem;
+    }
+}

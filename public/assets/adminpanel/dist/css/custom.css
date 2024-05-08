@@ -1,0 +1,37 @@
+@media (max-width:420px)
+{
+	.product-grid-4 .col-12{
+    width:50% !important;
+  }
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-wrapper .gallery-img-box {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.gallery-wrapper .gallery-img-box span {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 1.2rem;
+  background-color:#f5f5f5;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.gallery-wrapper .gallery-img-box:hover span {
+  opacity: 1;
+}
